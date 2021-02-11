@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>Wyszukiwarka obrazków</title>
+    <link rel="stylesheet" href="css/c12.css" />
+  </head>
+  <body>
+    <header>
+      <h1> Wyszukiwarka obrazków </h1>
+    </header>
+    
+        <section class="page panel">
+      <div class="gallery">
+        <div id="photo-viewer"></div>
+      </div>
+    </section>
+
+
+
+
+
+    <div id="buttons"></div>
+    <div id="gallery">
+      <a href="img/nature1.jpg" class="thumb active"><img src="img/nature1.jpg" data-tags="Natura" /></a>
+      <a href="img/nature2.jpg" class="thumb active"><img src="img/nature2.jpg" data-tags="Natura" /></a>
+      <a href="img/nature3.jpg" class="thumb active"><img src="img/nature3.jpg" data-tags="Natura" /></a>
+      <a href="img/nature4.jpg" class="thumb active"><img src="img/nature4.jpg" data-tags="Natura" /></a>
+      <a href="img/nature5.jpg" class="thumb active"><img src="img/nature5.jpg" data-tags="Natura" /></a>
+      <a href="img/nature6.jpg" class="thumb active"><img src="img/nature6.jpg" data-tags="Natura" /></a>
+      
+      <a href="img/car1.jpg" class="thumb active"><img src="img/car1.jpg" data-tags="Samochód" /></a>
+      <a href="img/car2.jpg" class="thumb active"><img src="img/car2.jpg" data-tags="Samochód" /></a>
+      <a href="img/car3.jpg" class="thumb active"><img src="img/car3.jpg" data-tags="Samochód" /></a>
+      <a href="img/car4.jpg" class="thumb active"><img src="img/car4.jpg" data-tags="Samochód" /></a>
+      <a href="img/car5.jpg" class="thumb active"><img src="img/car5.jpg" data-tags="Samochód" /></a>
+      
+      <a href="img/moto1.jpg" class="thumb active"><img src="img/moto1.jpg" data-tags="Motocykle" /></a>
+      <a href="img/moto2.jpg" class="thumb active"><img src="img/moto2.jpg" data-tags="Motocykle" /></a>
+      <a href="img/moto3.jpg" class="thumb active"><img src="img/moto3.jpg" data-tags="Motocykle" /></a>
+      <a href="img/moto4.jpg" class="thumb active"><img src="img/moto4.jpg" data-tags="Motocykle" /></a>
+      <a href="img/moto5.jpg" class="thumb active"><img src="img/moto5.jpg" data-tags="Motocykle" /></a>
+      
+      <a href="img/girl1.jpg" class="thumb active"><img src="img/girl1.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl2.jpg" class="thumb active"><img src="img/girl2.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl3.jpg" class="thumb active"><img src="img/girl3.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl4.jpg" class="thumb active"><img src="img/girl4.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl5.jpg" class="thumb active"><img src="img/girl5.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl6.jpg" class="thumb active"><img src="img/girl6.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl7.jpg" class="thumb active"><img src="img/girl7.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl8.jpg" class="thumb active"><img src="img/girl8.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl9.jpg" class="thumb active"><img src="img/girl9.jpg" data-tags="Dziewczyny" /></a>
+      <a href="img/girl10.jpg" class="thumb active"><img src="img/girl10.jpg" data-tags="Dziewczyny" /></a>
+
+      <a href="img/animal1.jpg" class="thumb active"><img src="img/animal1.jpg" data-tags="Zwierzęta,Natura" /></a>
+      <a href="img/animal2.jpg" class="thumb active"><img src="img/animal2.jpg" data-tags="Zwierzęta,Natura" /></a>
+      <a href="img/animal3.jpg" class="thumb active"><img src="img/animal3.jpg" data-tags="Zwierzęta,Natura" /></a>
+      <a href="img/animal4.jpg" class="thumb active"><img src="img/animal4.jpg" data-tags="Zwierzęta,Natura" /></a>
+      <a href="img/animal5.jpg" class="thumb active"><img src="img/animal5.jpg" data-tags="Zwierzęta,Natura" /></a>
+      <a href="img/animal6.jpg" class="thumb active"><img src="img/animal6.jpg" data-tags="Zwierzęta,Natura" /></a>
+      
+      <a href="img/sport1.jpg" class="thumb active"><img src="img/sport1.jpg" data-tags="Sport" /></a>
+      <a href="img/sport2.jpg" class="thumb active"><img src="img/sport2.jpg" data-tags="Sport" /></a>
+      <a href="img/sport3.jpg" class="thumb active"><img src="img/sport3.jpg" data-tags="Sport" /></a>
+      <a href="img/sport4.jpg" class="thumb active"><img src="img/sport4.jpg" data-tags="Sport" /></a>
+      <a href="img/sport5.jpg" class="thumb active"><img src="img/sport5.jpg" data-tags="Sport" /></a>
+      
+      <a href="img/city1.jpg" class="thumb active"><img src="img/city1.jpg" data-tags="Miasta,Natura" /></a>
+      <a href="img/city2.jpg" class="thumb active"><img src="img/city2.jpg" data-tags="Miasta" /></a>
+      <a href="img/city3.jpg" class="thumb active"><img src="img/city3.jpg" data-tags="Miasta,Natura" /></a>
+      <a href="img/city4.jpg" class="thumb active"><img src="img/city4.jpg" data-tags="Miasta" /></a>
+      <a href="img/city5.jpg" class="thumb active"><img src="img/city5.jpg" data-tags="Miasta" /></a>
+      
+      <a href="img/eat1.jpg" class="thumb active"><img src="img/eat1.jpg" data-tags="Jedzenie" /></a>
+      <a href="img/eat2.jpg" class="thumb active"><img src="img/eat2.jpg" data-tags="Jedzenie" /></a>
+      <a href="img/eat3.jpg" class="thumb active"><img src="img/eat3.jpg" data-tags="Jedzenie" /></a>   
+      
+      <a href="img/game1.jpg" class="thumb active"><img src="img/game1.jpg" data-tags="Gry" /></a>
+      <a href="img/game2.jpg" class="thumb active"><img src="img/game2.jpg" data-tags="Gry" /></a>
+      <a href="img/game3.jpg" class="thumb active"><img src="img/game3.jpg" data-tags="Gry" /></a>
+      <a href="img/game4.jpg" class="thumb active"><img src="img/game4.jpg" data-tags="Gry" /></a>
+      <a href="img/game5.jpg" class="thumb active"><img src="img/game5.jpg" data-tags="Gry" /></a>
+      
+      <a href="img/space1.jpg" class="thumb active"><img src="img/space1.jpg" data-tags="Przestrzeń" /></a>
+      <a href="img/space2.jpg" class="thumb active"><img src="img/space2.jpg" data-tags="Przestrzeń,Natura" /></a>
+      <a href="img/space3.jpg" class="thumb active"><img src="img/space3.jpg" data-tags="Przestrzeń,Natura" /></a>
+      <a href="img/space4.jpg" class="thumb active"><img src="img/space4.jpg" data-tags="Przestrzeń" /></a>
+      <a href="img/space5.jpg" class="thumb active"><img src="img/space5.jpg" data-tags="Przestrzeń" /></a>
+      <a href="img/space6.jpg" class="thumb active"><img src="img/space6.jpg" data-tags="Przestrzeń" /></a>
+    
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/filter-tags.js"></script>
+  </body>
+</html>

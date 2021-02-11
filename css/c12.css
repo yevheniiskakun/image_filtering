@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	font-family: 'Roboto Condensed', sans-serif;
+    color: #333;}
+
+
+/* Header */
+header {
+	background-color: #333333;
+	margin: 0 0 40px 0;
+	padding: 10px 0 0 0;
+	min-height: 80px;
+	text-align: center;}
+
+
+h1 {
+  color: #ff7a00;
+  margin: auto;
+  width: 516px;
+  height: 21px;
+  text-align: center;
+  }
+
+h2 {
+	font-size: 180%;
+	margin: 0;
+	text-align: center;
+}
+
+#buttons{
+	text-align: center;
+	margin-bottom: 30px;}
+
+/* Filter buttons */
+button {
+	background-color: #d7d7d7;
+	border: none;
+	padding: 7px 14px 8px 14px;
+	margin: 3px;
+	border-radius: 4px;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;}
+
+button:hover, button.active {
+	background-color: #ff7a00;
+	color: #fff;
+	cursor: pointer;}
+
+
+/* Gallery of images */
+#gallery {
+	text-align: center;
+	max-width: 1030px;
+	margin: 0 auto;
+}
+
+
+#gallery img {
+	width: 315px;
+	height: 170px;
+	border-radius: 3px;
+	border: 8px solid #fff;
+	margin: 6px;
+    -webkit-box-shadow: 0 0 3px 3px #ebebeb;
+    box-shadow: 0 0 3px 3px #ebebeb;
+	float: left;
+}
+
+	/********** MAIN PICTURE **********/
+#photo-viewer {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+
+}
+
+#photo-viewer img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  top: 50%;
+  left: 50%;}
+
+
+a.active {
+  opacity: 0.3;}
+
+
+/********** PARTS OF PAGES **********/
+.gallery{
+  width: 75%;
+  
+  }
+
+.page {
+  max-width: 940px;
+  margin: 0 auto 30px auto;}
+
+.panel {
+  padding-left: 15%;
+  background-color: #fff;
+  color: #666;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: auto;}
+
+/********** TYPOGRAPHY **********/
+a {
+    text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
